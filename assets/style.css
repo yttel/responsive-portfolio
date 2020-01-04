@@ -1,6 +1,15 @@
 /* style.css for the profile page */
 /* written by/for Letty Bedard */
 
+@media (max-width: 767px) {
+  .smallCenter
+      {
+          width: 100%;
+          text-align: center;
+          justify-content: center;
+      }
+  }
+
 body{
   font-family: 'Arial', 'Helvetica Nue', Helvetica, sans-serif;
   color: #777777;
@@ -8,21 +17,29 @@ body{
   background-image: url("../images/cork-board.png");
 }
 
+.noPad{
+  padding: 0;
+}
+
+.noMargin{
+  margin: 0;
+}
+
+.noBorder{
+  border: none;
+}
+
 header.headStyle{
   background-color: #ffffff;
 }
 
-nav.navBar{
-  width: 960px;
-  margin: 0 auto;
-  overflow: auto;
+nav.navStyle{
+  padding: 0 15px;
 }
 
 a.navLogo{
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   float: left;
-  margin: 0;
-  padding:  20px 30px;
   background-color: #4aaaa5;
   color: #ffffff;
 }
@@ -36,18 +53,22 @@ ul.navList{
 }
 
 li.navItem{
-  float: right;
   display: inline-block;
   padding: 0 10px;
   border-right: 1px solid #cccccc;
 }
 
+ul.upDownMiddle{
+  margin: 15px 0;
+}
+
 a.plain:visited,a.plain:hover, a.plain:any-link{
+  padding: 0 15px;
   text-decoration: none;
   color: #777777;
 }
 
-li.navItem:first-child{
+li.navItem:last-child{
   border-right: none;
   padding-right: 0;
 }
@@ -62,7 +83,8 @@ hr.horizontalLine {
 
 div.mainPanel{
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  /* margin: 0; */
   border-top: 1px solid #cccccc;
   border-bottom: 3px solid #4aaaa5;
 }
@@ -165,9 +187,11 @@ footer.footerStyle{
   background-color: #666666;
   height: 40px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }     
 
 div.footerText{
   color: #ffffff;
-  padding-top: 20px;
+  padding-top: 10px;
 }
