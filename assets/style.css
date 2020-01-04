@@ -126,6 +126,11 @@ div.copyContent{
   font-family: 'Arial', 'Helvetica Nue', Helvetica, sans-serif;
 }
 
+div.stuffBox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 div.placeholder{
   width: 320px;
   height: 200px;
@@ -140,7 +145,7 @@ div.titleBox{
   font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 
 input.name{

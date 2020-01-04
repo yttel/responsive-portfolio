@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- main/index page -->
+<!-- portfolio page -->
 <!-- written by/for Letty Bedard -->
 
 <html lang="en-us">
@@ -12,7 +12,7 @@
     <meta name="keywords" content="html, css, coding, portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     
     <title>Letty Bedard</title>
@@ -22,26 +22,100 @@
   <body>
 
     <!-- navbar -->
+    <nav class="navbar noMargin noBorder navStyle">
 
-    <div class="container">   
-      <div class="row">
-        <div class="col-sm-12 col-md-10 col-lg-8">
-          Hello 
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+
+          <a class="navbar-brand navLogo smallCenter">
+            Letty Bedard
+          </a>
         </div>
-        <div class="col col-md-2 col-lg-4">
-          World
-        </div>        
+
+        <div class="navCenter"> <!--menu options-->
+
+          <ul class="nav navbar-nav navbar-right smallCenter noMargin upDownMiddle">
+            
+            <li class="navItem">
+              <a class="plain" href="./index.html">
+                About
+              </a>
+            </li>
+               
+            <li class="navItem">
+              <a class="plain" href="./portfolio.html">
+                Portfolio
+              </a>
+            </li>
+            
+            <li class="navItem">
+              <a class="plain" href="./contact.html">
+                Contact
+              </a>
+            </li>
+            
+          </ul>
+        </div> <!--menu options-->
       </div>
-    </div>
+    </nav>
+
+    <div class="mainPanel noMargin"> <!--main content panel-->
+      <div class="container"> <!--container-->
+
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="panelContent">
+
+              <h2 class="sectionContent">Portfolio</h2>
+      
+              <hr class="dividerLine">
+      
+              <div class="contentBox stuffHolder smallCenter">
+          
+                <div class="placeholder">
+                  <div class="titleBox">
+                  Hangman
+                  </div>
+                </div>
+      
+                <div class="placeholder">
+                  <div class="titleBox">
+                    RPG Game
+                  </div>
+                </div>
+      
+                <div class="placeholder">
+                  <div class="titleBox">
+                    Trivia Game
+                  </div>
+                </div>
+      
+                <div class="placeholder">
+                  <div class="titleBox">
+                    Rutgers Info Widget
+                  </div>
+                </div>
+      
+                <div class="placeholder">
+                  <div class="titleBox">
+                    Rock Paper Scissors
+                  </div>
+                </div>
+      
+              </div> <!--content box-->
+            </div>  <!-- panel content-->
+      </div> <!--container-->
+    </div> <!--main panel-->
 
   </body>
 
-  <footer class="footerStyle">
+  <footer class="footer footerStyle">
 
-    <div class="footerText">
-      Copyright &copy;
+    <div class="container footerText">
+      Copyright &copy; 2020
     </div>
-
   </footer>
+
 
 </html>
