@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- main/index page -->
+<!-- contact page -->
 <!-- written by/for Letty Bedard -->
 
 <html lang="en-us">
@@ -24,7 +24,7 @@
     <!-- navbar -->
     <nav class="navbar noMargin noBorder navStyle">
 
-      <div class="container-fluid">
+      <div class="container-fluid noPad">
 
         <div class="navbar-header">
 
@@ -33,7 +33,7 @@
           </a>
         </div>
 
-        <div class="navCenter"> <!--menu options-->
+        <div class="menuStyle"> <!--menu options-->
 
           <ul class="nav navbar-nav navbar-right smallCenter noMargin upDownMiddle">
             
@@ -70,11 +70,44 @@
               <h2 class="sectionContent">Contact</h2>
       
               <hr class="dividerLine">
-      
-              <div class="contentBox">
               
-              </div> <!--inner content box-->
-            </div>  <!--full content box-->
+              
+              <div class="contentBox">
+                <form class="fullWidth">
+                
+                  <div class="form-group">
+                      
+                      <label for="nameInput">
+                        Name
+                      </label>
+                      
+                      <input type="text" class="form-control" id="nameInput" placeholder="your name here">
+                  </div>
+                  
+                  <div class="form-group">
+                      
+                      <label for="emailInput">
+                        e-mail address
+                      </label>
+                      
+                      <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+
+                  </div>
+
+                  <div class="form-group">
+                    <label for="messageInput">
+                      Message
+                    </label>
+                    <textarea class="form-control" id="messageInput" rows="6"></textarea>
+                  </div>
+
+                  <button class="submit">
+                    Submit
+                  </button>
+                </form>
+              
+              </div> <!--content box-->
+            </div>  <!--larger about me box-->
           </div>
           
           <div class="col-lg-4">
