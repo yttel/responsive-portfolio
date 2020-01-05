@@ -14,7 +14,7 @@ body{
   font-family: 'Arial', 'Helvetica Nue', Helvetica, sans-serif;
   color: #777777;
   margin-top: 30px;
-  background-image: url("../images/cork-board.png");
+  background-image: url("../assets/images/cork-board.png");
 }
 
 .noPad{
@@ -29,11 +29,8 @@ body{
   border: none;
 }
 
-header.headStyle{
-  background-color: #ffffff;
-}
-
 nav.navStyle{
+  background-color: #ffffff;
   padding: 0 15px;
 }
 
@@ -89,7 +86,6 @@ div.mainPanel{
 
 div.panelContent{
   justify-content: center;
-  /* width: 960px; */
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-top: 30px;
@@ -104,7 +100,6 @@ h2.sectionContent{
 
 hr.dividerLine{
   background-color: #cccccc;
-  /* width: 920px; */
   height: 1px;
   border: none;
   padding: 0;
