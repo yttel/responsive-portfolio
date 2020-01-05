@@ -2,18 +2,21 @@
 /* written by/for Letty Bedard */
 
 @media (max-width: 767px) {
-  .smallCenter
-      {
-          width: 100%;
-          text-align: center;
-          justify-content: center;
-      }
+  .smallCenter{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    }
+
+  .smallScreen{
+    width: 100%;
+    }    
 
   .imageSizing{
 
-  }
+    }
 
-  }
+  }  
 
 body{
   font-family: 'Arial', 'Helvetica Nue', Helvetica, sans-serif;
