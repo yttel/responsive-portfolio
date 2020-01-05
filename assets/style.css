@@ -201,6 +201,11 @@ footer.footerStyle{
   text-align: center;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 3px solid #4aaaa5;
 }     
 
 div.footerText{
