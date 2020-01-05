@@ -8,6 +8,10 @@
           text-align: center;
           justify-content: center;
       }
+
+  .imageSizing{
+
+  }
   }
 
 body{
@@ -107,6 +111,8 @@ hr.dividerLine{
 }
 
 div.contentBox{
+  display: flex;
+  flex-wrap: wrap;
   margin: 20px;
 }
 
@@ -127,9 +133,9 @@ div.stuffBox{
 }
 
 div.placeholder{
-  width: 320px;
-  height: 200px;
-  background-image: url("http://lorempixel.com/320/200");
+  width: 309px;
+  height: 175px;
+  background-image: url("http://lorempixel.com/309/175");
   margin: 15px 20px 15px 0px;
 }
 
